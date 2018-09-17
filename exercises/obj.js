@@ -8,6 +8,17 @@
  */
 
 // Your code :
+const obj =
+    {
+    obj:'object',
+    str : 'string',
+    str : '1337',
+    num : 'number',
+    num : 42,
+    bool : 'boolean',
+    bool : false,
+    undef :undefined
+    };
 
 //* Begin of tests
 const assert = require('assert')
