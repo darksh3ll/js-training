@@ -9,7 +9,21 @@
  */
 
 // Your code :
+function multiply (number, number2) {
+    let mult = 0;
+    if (number2 >= 0) {
+    for (let i = 0; i < number2; i++) {
+    mult += number;
 
+    }
+    } else if (number2 < 0) {
+    for (let i = 0; i > number2; i--) {
+    mult -= number;
+    }
+    } return mult
+    }
+
+    console.log(multiply(-12, -24))
 //* Begin of tests
 const assert = require('assert')
 
